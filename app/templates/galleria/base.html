@@ -1,0 +1,54 @@
+{% load bootstrap3 %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    {% if title %}
+    <title>Personal Gallery - {{title}}</title>
+    {% else %}
+    <title>Personal Gallery</title>
+    {% endif %}
+</head>
+
+{% block styles %}
+{% bootstrap_css %}
+<link type="text/css" rel="stylesheet" href="{% static 'css/basegallery.css' %}" media="screen, projection">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+    integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+{% endblock %}
+
+<body>
+    {% block content %}
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand font-weight-bold" href="{% url 'main_gallery' %}">Gallery</a>
+            </div>
+            <!-- Adding a search form -->
+
+            <div class="col-sm-4 col-md-4 navbar-right">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search Category" name="category">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+    {%endblock%}
+
+    {% block scripts %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    {% bootstrap_javascript %}
+    {% endblock %}
+</body>
+
+</html>
