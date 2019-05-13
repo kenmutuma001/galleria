@@ -1,23 +1,32 @@
 ## GALLERY
+
 ## AUTHOR
+
 GITONGA KENNEDY MUTUMA
+
 ## PROJECT DESCRIPTION
+
 This website allows user to view different categories of pictures,search pictures and copy the image links. 
+
 ## TECHNOLOGIES USED
+
  * ATOM editor
  * GIT
  * Django
  * PYTHON3.6
  * BOOTSTRAP
  * CSS
- ## SET_UP INSTRUCTIONS
+
+## SET_UP INSTRUCTIONS
+
 * Clone this repository
 * Create a virtual environment
 * Install flask dependancies
 * Set the settings to development mode.
 *Run the python3.6 manage.py runserver
 
- ## BDD
+## BDD
+
  |       Behaviour                     | input                                  |   output              |
  |------------|-----------|----------------|                    
  | User can signup	|  email adress,username,password	| user will be required to login    |
@@ -25,11 +34,15 @@ This website allows user to view different categories of pictures,search picture
 | User can login	|  Email address and correct password	| User account page |
 | User can update profile | Choose the profile picture path | Profile picture |
 | User add blog  | blog title and description  | blog posted   |
+
 ## LINK
 
 ## BUGS
+
 Their are no known bugs if any is found please make contact
+
 ## CONTACT
+
 kennedy.qen830@gmail.com
 
 ## LINCENSE INFORMATION
