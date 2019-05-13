@@ -12,10 +12,9 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 import dj_database_url
-from decouple import config,Csv
+from decouple import config, Csv
 
-MODE=config("MODE",default="dev")
-
+MODE = config("MODE", default="dev")
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -86,9 +85,9 @@ WSGI_APPLICATION = 'gallery.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'gallery',
+        'NAME': 'kencollections',
         'USER': 'ken',
-    'PASSWORD':'kennedy',
+        'PASSWORD': 'kennedy',
     }
 }
 
