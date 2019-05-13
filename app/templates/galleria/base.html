@@ -5,6 +5,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% if title %}
     <title>Personal Gallery - {{title}}</title>
     {% else %}
@@ -29,7 +30,7 @@
             <!-- Adding a search form -->
 
             <div class="col-sm-4 col-md-4 navbar-right">
-                <form class="navbar-form" role="search">
+                <form action="{% url 'search' %}" class="navbar-form" role="search">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search Category" name="category">
                         <div class="input-group-btn">
