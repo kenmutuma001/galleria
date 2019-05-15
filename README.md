@@ -6,7 +6,10 @@ GITONGA KENNEDY MUTUMA
 
 ## PROJECT DESCRIPTION
 
-This website allows user to view different categories of pictures,search pictures and copy the image links. 
+This website allows user to view different Category of pictures,search pictures and copy the image links. 
+
+###
+
 
 ## TECHNOLOGIES USED
 
