@@ -8,9 +8,6 @@ GITONGA KENNEDY MUTUMA
 
 This website allows user to view different Category of pictures,search pictures and copy the image links. 
 
-###
-
-
 ## TECHNOLOGIES USED
 
  * ATOM editor
@@ -32,17 +29,14 @@ This website allows user to view different Category of pictures,search pictures 
 
  |       Behaviour                     | input                                  |   output              |
  |------------|-----------|----------------|                    
- | User can signup	|  email adress,username,password	| user will be required to login    |
-| Checks if the passwords match |	password and repeat password	| user will be required to enter matching passwords|
-| User can login	|  Email address and correct password	| User account page |
-| User can update profile | Choose the profile picture path | Profile picture |
-| User add blog  | blog title and description  | blog posted   |
+ | User searches	| user inputs the category of pic 	|displays pics according to category     | 
+| user enters site |clicks image	| displays a larger image with details|
 
 ## LINK
 
 ## BUGS
 
-Their are no known bugs if any is found please make contact
+There are no known bugs if any is found please make contact
 
 ## CONTACT
 
